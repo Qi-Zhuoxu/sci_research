@@ -1,4 +1,4 @@
-# sci-research
+# sci_research
 
 学术论文检索工具 — Scopus 检索发现,Crossref + OpenAlex 补全摘要,导出 Excel。
 
@@ -25,8 +25,8 @@ OpenAlex API        → 用 DOI 兜底补摘要(摘要覆盖率更高)
 
 ```bash
 # 1. 克隆并装依赖
-git clone https://github.com/<your-username>/sci-research.git
-cd sci-research
+git clone https://github.com/Qi-Zhuoxu/sci_research.git
+cd sci_research
 pip install -r requirements.txt
 
 # 2. 配置 API Key
@@ -163,7 +163,7 @@ python search.py --config experiments/tod_review.yaml
 ## 项目结构
 
 ```
-sci-research/
+sci_research/
 ├── .env                  # SCOPUS_API_KEY=...  (git 忽略)
 ├── .gitignore
 ├── requirements.txt
